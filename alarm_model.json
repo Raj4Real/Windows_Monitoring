@@ -1,0 +1,209 @@
+{
+    "jsonData": { "id": {
+        "timestamp": "TIMESTAMP",
+        "supports": "replywithredirect",
+        "regionId": "REGIONID",
+        "group": "GROUP",
+        "type": "TBDType",
+        "serviceName": "",
+        "hostInfo": {
+            "hostName": "",
+            "hostIp": "10.41.20.76",
+            "version": ""
+        }},
+        "children":  [
+            {
+                "almModelID": 501,
+                "severity": "MINOR",
+                "description": "Memory Warning",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": "Memory usage is currently above Minor level"
+            },
+            {
+                "almModelID": 502,
+                "severity": "CLEARED",
+                "description": "Memory Warning CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 503,
+                "severity": "MAJOR",
+                "description": "High Memory",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": "Memory usage is currently above Major level"
+            },
+            {
+                "almModelID": 504,
+                "severity": "CLEARED",
+                "description": "High Memory CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 505,
+                "severity": "CRITICAL",
+                "description": "Very High Memory",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": "Memory usage is currently above Critical level"
+            },
+            {
+                "almModelID": 506,
+                "severity": "CLEARED",
+                "description": "Very High Memory Clear",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 507,
+                "severity": "MINOR",
+                "description": "CPU Warning",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": "CPU is currently above Minor level"
+            },
+            {
+                "almModelID": 508,
+                "severity": "CLEARED",
+                "description": "CPU Warning CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 509,
+                "severity": "MAJOR",
+                "description": "High CPU",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": "CPU is currently above Major level"
+            },
+            {
+                "almModelID": 510,
+                "severity": "CLEARED",
+                "description": "High CPU CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 511,
+                "severity": "CRITICAL",
+                "description": "Very High CPU",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": "CPU is currently above Critical level"
+            },
+            {
+                "almModelID": 512,
+                "severity": "CLEARED",
+                "description": "Very High CPU CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 513,
+                "severity": "MINOR",
+                "description": "Disk Usage Warning",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 514,
+                "severity": "CLEARED",
+                "description": "Disk Usage Warning CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 515,
+                "severity": "MAJOR",
+                "description": "High Disk Usage",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 516,
+                "severity": "CLEARED",
+                "description": "High Disk Usage CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 517,
+                "severity": "CRITICAL",
+                "description": "Out of Disk Space",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 518,
+                "severity": "CLEARED",
+                "description": "Out of Disk Space CLEAR",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 519,
+                "severity": "CRITICAL",
+                "description": "Process Failure",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 520,
+                "severity": "CLEARED",
+                "description": "Process Failure",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 521,
+                "severity": "CRITICAL",
+                "description": "Service Failure",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 522,
+                "severity": "CLEARED",
+                "description": "",
+                "eventType": "",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 523,
+                "severity": "CRITICAL",
+                "description": "Network Failure",
+                "eventType": "processingErrorAlarm",
+                "probCause": "thresholdCrossed",
+                "addText": ""
+            },
+            {
+                "almModelID": 524,
+                "severity": "CLEARED",
+                "description": "Network Failure",
+                "eventType": "",
+                "probCause": "",
+                "addText": ""
+            }
+        ]
+    }
+}

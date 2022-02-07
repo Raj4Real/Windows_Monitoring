@@ -1,0 +1,52 @@
+{
+    "Monitor": {
+                "CPU": true,
+                "Memory": true,
+                "Storage": true,
+                "Processes": false,
+                "Services": false,
+                "Network": false
+                },
+    "Define":	{
+                "regionId": 500,
+                "group":    "",	
+                "type": "VM",
+                "version":  1.0,
+				"EMS_URI" : "//URL to report alerts through URI"
+                },
+    "HostName": "",
+	"Network":
+			{
+			 "ServerName": ["google.com","facebook.com"]
+			},
+    "CPU": {
+            "CPUMINOR":  0,
+            "CPUMAJOR":  80,
+            "CPUCRITICAL":  100
+            },
+    "Memory": {
+                "MEMMINOR": 60,
+                "MEMMAJOR":  80,
+                "MEMCRITICAL":  90
+                },
+    "Disk":  {
+                "DISKMINOR": 60,
+                "DISKMAJOR":  80,
+                "DISKCRITICAL":  95,
+                "DISKTYPE": ["Local Disk", "Removable Disk"],	
+                "Filter_Disks":  []
+            },
+    "Processes": {
+                    "Process_List": ["chrome", "outlook", "winword"]
+                },
+    "Services":  {
+                    "Service_List": ["WebClient", " WLAN AutoConfig"]
+                },
+    "Interval": {
+                "Minutes": 1
+                },
+    "Disable": {
+                "Processes": [],
+                "Services": []
+                }
+}
